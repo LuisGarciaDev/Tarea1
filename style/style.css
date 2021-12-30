@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    margin: 10px;
+}
+
+img{
+width: 200px;
+}
+
+div{
+    margin: 20px;
+}
+button{
+    background-color: green;
+}

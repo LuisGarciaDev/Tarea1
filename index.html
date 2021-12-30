@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Valores & Servicios</title>
+</head>
+
+<body>
+    <div>
+        <h1>Conversor de Divisas</h1>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61TuGfMmNOL.png" alt="imgdivisas">
+    </div>
+    <div>
+        <input type="number" placeholder="Cantidad de Dinero:" id="cantidad">
+    </div>
+    <div id="selectores">
+        <form action=""></form>
+        <select id="divisa1">
+            <option value="">Elige tu Moneda</option>
+            <option value="Dolar">Dolar</option>
+            <option value="Peso Mexicano">Peso Mexicano</option>
+            <option value="Peso Colombiano">Peso Colombiano</option>
+            <option value="Euro">Euro</option>
+            <option value="Libra Esterlina">Libra Esterlina</option>
+        </select>
+        <select id="divisa2">
+            <option value="">Elige tu Moneda</option>
+            <option value="Dolar">Dolar</option>
+            <option value="Peso Mexicano">Peso Mexicano</option>
+            <option value="Peso Colombiano">Peso Colombiano</option>
+            <option value="Euro">Euro</option>
+            <option value="Libra Esterlina">Libra Esterlina</option>
+        </select>
+        <button type="submit" onclick=total()>Convertir Divisa</button>
+        </form>
+        <div id="total">
+
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
