@@ -106,7 +106,12 @@ else if (divisa1 === "Peso Colombiano" && divisa2 === "Peso Mexicano") {
     resultado = cantidad * cop_mxn;
 };
 
-totalid.innerHTML =`<h1>La cantidad es de: ${resultado} ${divisa2}</h1>`;
+if (typeof resultado === 'undefined') {
+    alert('ingresa todos los datos para completar el calculo de las divisas, gracias')
+ }
+else if(resultado !== 'undefined' ){
+    totalid.innerHTML =`<h1>La cantidad es de: ${resultado} ${divisa2}</h1>`;
+ }
 
 }
 
